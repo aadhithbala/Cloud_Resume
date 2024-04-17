@@ -12,6 +12,7 @@ I aim to create a simple static cloud-based resume website by converting a resum
 - [x] Get a domain name and route cloudfront distribution through it
 - [x] Implement SSL protocol for secure communication.
 - [x] Setup Route 53 for dns service and routing
+- [x] Setup Github Actions to Automatically deploy to s3 bucket and invalidate cdn cache
 - [ ] Setup a view counter in website using js
 - [ ] Store the counter data in dynamo db and query it using api.
 - [ ] Infrastructure as Code (IaC) using Terraform.
