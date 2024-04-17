@@ -10,6 +10,9 @@ body {
   box-sizing: border-box; /* Ensures padding/border included in width/height */
 }
 
+.name {
+}
+
 a {
   text-decoration: none;
 }
@@ -31,11 +34,11 @@ li {
 
 /* Header Styles */
 header {
-  /* border: solid 2px red; */
+  /* border: solid 2px blueviolet; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 15px;
   background-color: #f8f9fa;
 }
 
@@ -44,11 +47,17 @@ header {
   margin: 0;
   display: flex; /* Align contact links horizontally */
   justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  gap: 4px;
 }
 
 .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* border: solid 2px hotpink; */
-  padding: 15px;
+  padding: 5px;
 }
 /* Section Styles */
 section {
@@ -62,8 +71,7 @@ section {
   margin-bottom: 0.5rem;
 }
 
-.social-logo {
-  width: 25px; /* Set a fixed width for the social logos */
-  height: 25px; /* Set a fixed height for the social logos */
-  /* margin-right: 10px; Add some space between each logo */
+.logo {
+  width: 28px;
+  height: 28px;
 }
